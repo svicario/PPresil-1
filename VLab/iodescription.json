@@ -41,6 +41,7 @@
       "description": "Bounding Box with order west,south,east,north",
       "name": "Bounding Box",
       "valueSchema": "bbox",
+      "target": "/BBfile.txt"
 	}
   ]
 }

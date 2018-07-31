@@ -34,5 +34,14 @@
       "valueSchema": "url",
       "target": "./Output.zip"
 	}
+	{
+      "id": "Output_archive_PPresil",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output bbox",
+      "name": "Output bbox",
+      "valueSchema": "url",
+      "target": "/BBfile.txt"
+	}
   ]
 }

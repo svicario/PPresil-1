@@ -1,0 +1,16 @@
+{
+  "image": "atom93/docker-ppresil",
+  "resources": {
+    "memory_mb": "5000",
+    "cpu_units": "8"
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "unzip ./Dati_SatPenedaMSAVI.zip -d ./Dati_SatPeneda/ && python3 ./PPresil-serviceBB.py && zip ./Output.zip ./new_imageYAMNN2b.hdr ./new_imageYAMNN2b.img"
+ ]
+  }
+}

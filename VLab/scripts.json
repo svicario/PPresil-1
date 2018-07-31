@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "PPresil-serviceBB.py",
+      "targetPath": "PPresil-serviceBB.py",
+      "pathType": "FILE"
+	}
+  ]
+}

@@ -2,7 +2,7 @@
   "image": "atom93/docker-ppresil",
   "resources": {
     "memory_mb": "5000",
-    "cpu_units": "8"
+    "cpu_units": ""
  },
   "container": {
     "entryPoint": [

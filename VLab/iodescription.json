@@ -33,6 +33,6 @@
       "name": "Output image",
       "valueSchema": "url",
       "target": "./Output.zip"
-	},
+	}
   ]
 }

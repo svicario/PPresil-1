@@ -5,11 +5,23 @@
       "inputType": "individual",
       "valueType": "value",
       "description": "Time series of vegetation index. Format is expected to be multilayer envi file.",
-      "name": "Time series of vegetation index",
+      "name": "Input archive URL",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
       "target": "./Dati_SatPenedaMSAVI.zip"
+	},
+	{
+      "id": "BoundingBox",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Bounding Box with order west,south,east,north",
+      "name": "Bounding Box",
+      "obligation": false,
+      "hasDefault": true,
+      "valueSchema": "bbox",
+	  "defaultValue": "0,0,0,0",
+      "target": "/BBfile.txt"
 	}
   ],
   "outputs": [
@@ -21,6 +33,15 @@
       "name": "Output image",
       "valueSchema": "url",
       "target": "./Output.zip"
+	},
+	{
+      "id": "Output_ bbox_PPresil",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Bounding Box with order west,south,east,north",
+      "name": "Bounding Box",
+      "valueSchema": "bbox",
+      "target": "/BBfile.txt"
 	}
   ]
 }

@@ -20,7 +20,7 @@
       "obligation": false,
       "hasDefault": true,
       "valueSchema": "bbox",
-	  "defaultValueArray": "0,0,0,0",
+	  "defaultValueArray": "[0,0,0,0]",
       "target": "/BBfile.txt"
 	}
   ],

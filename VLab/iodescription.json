@@ -34,14 +34,5 @@
       "valueSchema": "url",
       "target": "./Output.zip"
 	},
-	{
-      "id": "Output_ bbox_PPresil",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "Bounding Box with order west,south,east,north",
-      "name": "Bounding Box",
-      "valueSchema": "bbox",
-      "target": "/BBfile.txt"
-	}
   ]
 }

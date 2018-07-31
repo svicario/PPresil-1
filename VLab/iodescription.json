@@ -13,14 +13,14 @@
 	},
 	{
       "id": "BoundingBox",
-      "inputType": "individual",
+      "inputType": "array",
       "valueType": "value",
       "description": "Bounding Box with order west,south,east,north",
       "name": "Bounding Box",
       "obligation": false,
       "hasDefault": true,
       "valueSchema": "bbox",
-	  "defaultValue": "[0,0,0,0]",
+	  "defaultValueArray": "[0,0,0,0]",
       "target": "/BBfile.txt"
 	}
   ],

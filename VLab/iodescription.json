@@ -42,6 +42,6 @@
       "name": "Bounding Box",
       "valueSchema": "bbox",
       "target": "./BBfile.txt"
-	},
+	}
   ]
 }

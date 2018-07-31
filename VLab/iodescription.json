@@ -13,13 +13,13 @@
 	},
 	{
       "id": "BoundingBox",
-      "inputType": "array",
+      "inputType": "individual",
       "valueType": "value",
       "description": "Bounding Box with order west,south,east,north",
       "name": "Bounding Box",
       "obligation": true,
       "hasDefault": false,
-      "valueSchema": "bbox",
+      "valueSchema": "url",
       "target": "/BBfile.txt"
 	}
   ],
@@ -32,6 +32,15 @@
       "name": "Output image",
       "valueSchema": "url",
       "target": "./Output.zip"
+	},
+	{
+      "id": "Output_bbox_PPresil",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output bbox text file",
+      "name": "Output text file",
+      "valueSchema": "url",
+      "target": "/BBfile.txt"
 	}
-	]
+  ]
 }

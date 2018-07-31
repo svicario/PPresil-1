@@ -18,9 +18,8 @@
       "description": "Bounding Box with order west,south,east,north",
       "name": "Bounding Box",
       "obligation": false,
-      "hasDefault": true,
+      "hasDefault": false,
       "valueSchema": "bbox",
-	  "defaultValueArray": "0,0,0,0",
       "target": "/BBfile.txt"
 	}
   ],

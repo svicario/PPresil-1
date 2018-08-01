@@ -42,7 +42,7 @@ MemFilePath="/Tmp/MSaviFeat"
 #path to get input stack in envi format
 path="Dati_SatPeneda"
 file="MSAVI_AOI_MASKED_STACK_NEW"
- west,south,east,north =read_csv("BBfile.txt", index_col=None, header=None,delim_whitespace=True).values.flatten().tolist()
+west,south,east,north =read_csv("BBfile.txt", index_col=None, header=None,delim_whitespace=True).values.flatten().tolist()
 if !(south==west==north==east==0):
     ds = gdal.Open(path+file)
     ds = gdal.Translate(path+"BB_"+file, ds, projWin = [south,west,north,east])

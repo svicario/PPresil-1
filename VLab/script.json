@@ -1,8 +1,8 @@
 {
   "scripts": [
     {
-      "repoPath": "PPresil-serviceBB.py",
-      "targetPath": "PPresil-serviceBB.py",
+      "repoPath": "PPresil-serviceBBgeo.py",
+      "targetPath": "PPresil-serviceBBgeo.py",
       "pathType": "FILE"
 	}
   ]

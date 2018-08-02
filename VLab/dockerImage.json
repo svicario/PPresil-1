@@ -10,7 +10,7 @@
       "-c"
 	],
     "command": [
-      "unzip ./Dati_SatPenedaMSAVI.zip -d ./Dati_SatPeneda/ && python3 ./PPresil-serviceBBgeo.py && zip ./Output.zip ./new_imageYAMNN2b.hdr ./new_imageYAMNN2b.img "
+      "unzip ./Dati_SatPenedaMSAVI.zip -d ./Dati_SatPeneda/ && echo "___________________" && echo "file MSAVI_AOI_MASKED_STACK_NEW.hdr" && echo " " && cat ./Dati_SatPeneda/MSAVI_AOI_MASKED_STACK_NEW.hdr &&  echo "___________________" && python3 ./PPresil-serviceBBgeo.py && zip ./Output.zip ./new_imageYAMNN2b.hdr ./new_imageYAMNN2b.img "
 	]
   }
 }

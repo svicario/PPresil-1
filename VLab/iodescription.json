@@ -4,7 +4,7 @@
       "id": "Dati_SatPeneda",
       "inputType": "individual",
       "valueType": "value",
-      "description": "Time series of vegetation index. Format is expected to be multilayer envi file.",
+      "description": "Time series of vegetation index. Format is expected to be multilayer envi file. The band name need to have time information",
       "name": "Input archive URL",
       "obligation": true,
       "hasDefault": false,
@@ -28,7 +28,7 @@
       "id": "Output_archive_PPresil",
       "outputType": "individual",
       "valueType": "value",
-      "description": "Output image",
+      "description": "Output image in ENVI format showing Time Series Statistics. First 3 layers are the Ecological Functional Attributes.\\n pvalue and Rsq are the significance and the explained variance of the Harmonic model. Liupvalue is the probability that the residual have autocorrelated signal",
       "name": "Output image",
       "valueSchema": "url",
       "target": "./Output.zip"
@@ -37,7 +37,7 @@
       "id": "Output_bbox_PPresil",
       "outputType": "individual",
       "valueType": "value",
-      "description": "Output bbox text file",
+      "description": "Bounding Box used on the input image, if Lat/Long value are zero no clipping was applied",
       "name": "Output text file",
       "valueSchema": "url",
       "target": "/BBfile.txt"

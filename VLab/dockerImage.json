@@ -1,5 +1,5 @@
 {
-  "image": "atom93/docker-ppresil",
+  "image": "svicario/docker-PPresil",
   "resources": {
     "memory_mb": "5000",
     "cpu_units": ""

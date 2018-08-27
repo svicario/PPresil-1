@@ -17,10 +17,10 @@
       "valueType": "value",
       "description": "Bounding Box with order west,south,east,north",
       "name": "Bounding Box",
-      "obligation": true,
-      "hasDefault": false,
+      "obligation": false,
+      "hasDefault": true,
       "valueSchema": "url",
-      "target": "/BBfile.txt"
+      "target": "http://cloud.recas.ba.infn.it:8080/v1/AUTH_fb6d6fcd0e194a96bb6d0420dce8332f/backgroundinfo/BBfileDefault.txt"
 	}
   ],
   "outputs": [

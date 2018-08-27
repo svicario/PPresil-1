@@ -1,5 +1,5 @@
 {
-  "image": "svicario/docker-ppresil",
+  "image": "iiaphylogenetic/docker-ppresil",
   "resources": {
     "memory_mb": "5000",
     "cpu_units": ""

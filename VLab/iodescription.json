@@ -20,7 +20,8 @@
       "obligation": false,
       "hasDefault": true,
       "valueSchema": "url",
-      "target": "http://cloud.recas.ba.infn.it:8080/v1/AUTH_fb6d6fcd0e194a96bb6d0420dce8332f/backgroundinfo/BBfileDefault.txt"
+      "defaultValue":"http://cloud.recas.ba.infn.it:8080/v1/AUTH_fb6d6fcd0e194a96bb6d0420dce8332f/backgroundinfo/BBfileDefault.txt",
+      "target": "/BBfile.txt"
 	}
   ],
   "outputs": [
